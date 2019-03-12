@@ -5,7 +5,11 @@ In the Introduction, I think I can use "Classification method" to analysis the n
 1. As we will provide the classification results to the model and train the result (supervide learning), our problem is a classification problem and Week 3 project is a clustering problem. So we will build the model, train the result using the data of M & S shops, and predict the result of the targeted place.
 1. Instead of analysis the venues near each neighborhoods, this project will analyse the venues near M, S and our targeted shops.
 #### About the ipynb files I uploaded
-The notebook files can run Python 3 kernel. Some notebooks need "folium", "BeautifulSoup" and "geopy" libraries. These libraries may not be included into your Jupyter notebook andm therefore, pre-instsalling them may be needed. Also, if you view the file in Github, I found that the maps genreated by Folium in my notebooks will not shown there. If you want to see the maps (although the maps are only for me to analysis the data), you may need to download them and run them in your Jupyter notebook.
+The notebook files use Python 3 kernel to run. Some notebooks need "folium", "BeautifulSoup" and "geopy" libraries. These libraries may not be included into the default Jupyter notebook, and therefore, pre-instsalling them may be needed. Also, if you view the file in Github, I found that the Folium maps in my notebooks will not shown here. If you want to see the maps (although the maps are only for me to analysis the data), you may need to download all notebook files and run them all in your Jupyter notebook in the sequence of: 
+
+    mtr.ipynb --> M_S_location.ipynb --> Combined.ipynb --> Classification-part1.ipynb
+
+Each notebook will generate one or two excel files that will be used in the next notebook.
 
 ### 2. Location data of M and S shops
 At first, I want to generate locations from their company websites, and they should list out all the shops in Hong Kong. However, both the websites do not provide lists of their location and we can imported. And I cannot found any lists in the internet. 
